@@ -1,0 +1,32 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Power BI autosaves / cache
+*.pbiviz.json
+*.pbit
+
+# VS Code workspace settings
+.vscode/
+
+# Python or Jupyter (if used later)
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# MacOS metadata
+.Spotlight-V100
+.Trashes
+
+# SQLite or local DB files (if not shared)
+*.db
+*.sqlite
+
+# Node modules (if used for any scripting or extensions)
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
