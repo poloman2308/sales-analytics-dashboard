@@ -21,28 +21,36 @@ This project highlights how data professionals can turn raw transactional data i
 ## 🗂 Project Structure
 ```bash
 sales-analytics-dashboard/
-├── README.md
-├── schema/                 # SQL DDL & sample inserts
+├── README.md                          # Project overview & usage
+├── .gitignore                         # Files and folders to exclude from Git
+│
+├── schema/                            # SQL DDL & sample inserts
 │   ├── create_tables.sql
 │   └── insert_sample_data.sql
-├── data/                   # CSVs for use in Power BI
+│
+├── data/                              # CSVs for Power BI data source
 │   ├── customers.csv
 │   ├── products.csv
 │   └── sales.csv
-├── queries/                # SQL business logic
+│
+├── queries/                           # Raw SQL queries for analytics
 │   ├── monthly_sales.sql
 │   ├── top_customers.sql
 │   ├── revenue_by_region.sql
 │   └── yoy_growth.sql
-├── views/                  # Reusable views for reporting
+│
+├── views/                             # SQL views for reusable reporting logic
 │   ├── v_monthly_kpis.sql
 │   └── v_customer_segments.sql
-├── dashboards/
+│
+├── dashboards/                        # Power BI assets
 │   ├── Sales_Analytics_Dashboard.pbix
 │   └── powerbi_mockup.png
-├── erd/
+│
+├── erd/                               # Entity-Relationship Diagram
 │   └── schema.png
-└── themes/                 # Custom Power BI styling
+│
+└── themes/                            # Power BI themes
     └── advanced_sales_analytics_theme_canvas.json
 ```
 
